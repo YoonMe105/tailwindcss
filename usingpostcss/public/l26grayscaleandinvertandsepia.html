@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gray Scale And Invert And Sepia</title>
+        <link href="./tailwind.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+           .box{
+                width: 300px;
+                height: 300px;
+                margin: 10px;
+           }
+        </style>
+    </head>
+    <body>
+
+        <h1>This is tailwind css.</h1>
+
+        <div class="box grayscale-0">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+        <div class="box grayscale">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+        <div class="box invert">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+        <div class="box invert-0">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+        <div class="box sepia-0">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+        <div class="box sepia">
+            <img src="./img/weowedone.jpg" alt="weowone" />
+        </div>
+        <hr/>
+
+    </body>
+</html>
+
+<!-- 
+grayscale-0           filter:grayscale(0%) 0% 100% origin
+grayscale             filter:grayscale(100%) 0% 100%
+ -->
+
+
+<!-- 
+invert-0            filter:invert(0%) 0% 100% origin
+invert              filter:invert(100%) 0% 100%
+ -->
+
+<!-- 
+sepia-0             filter:sepia(0%) 0% 100% origin
+sepia               filter:sepia(100%) 0% 100%
+ -->
